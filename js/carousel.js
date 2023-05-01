@@ -23,7 +23,7 @@ document.addEventListener( 'DOMContentLoaded', function () {
     type   : 'loop',
     drag   : 'free',
     focus  : 'center',
-    perPage: 5,
+    perPage: 4,
     autoplay : true,
     interval : 1000,
     } ).mount();
