@@ -24,7 +24,9 @@ document.addEventListener( 'DOMContentLoaded', function () {
     perPage: 3,
     autoplay : true,
     interval : 1500,
-    } ).mount();
+    } ).mount().on('click', function () {
+        location.assign('https://instagram.com/yash.exch?igshid=ZDdkNTZiNTM=');
+    });
 } );
 
 
@@ -65,5 +67,7 @@ document.addEventListener( 'DOMContentLoaded', function () {
         },
         autoplay : true,
         interval : 1000,
-    }).mount();
+    }).mount().on('click', function () {
+        location.assign('https://instagram.com/yash.exch?igshid=ZDdkNTZiNTM=');
+    });
 });
