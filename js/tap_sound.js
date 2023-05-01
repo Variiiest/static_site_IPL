@@ -11,3 +11,10 @@ document.addEventListener('mousedown',()=>{
         tap_audio.play();
     }
 })
+
+document.addEventListener('touchstart',()=>{
+    if (!tap_audio.playing){
+        tap_audio.currentTime = 0;
+        tap_audio.play();
+    }
+})
