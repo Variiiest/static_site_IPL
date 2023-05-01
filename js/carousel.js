@@ -15,7 +15,6 @@ document.addEventListener( 'DOMContentLoaded', function () {
 
 
 //  Multi image carousel
-
 document.addEventListener( 'DOMContentLoaded', function () {
     new Splide( '#image-multi-carousel',{
     type   : 'loop',
@@ -55,13 +54,13 @@ document.addEventListener( 'DOMContentLoaded', function () {
         perPage: 5,
         breakpoints: {
               640: {
-                perPage: 1.5,
+                perPage: 2,
               },
               1024 : {
-                perPage: 3.5,
+                perPage: 3,
               },
               1280 : {
-                perPage : 4.5,
+                perPage : 4,
               },
         },
         autoplay : true,
