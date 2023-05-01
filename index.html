@@ -21,24 +21,6 @@
 </head>
 <body>
     <audio id="tap-audio" class="invisible" src="./assets/sounds/tap1.mp3"></audio>
-    <div class="w-full h-full absolute flex flex-col items-center">
-        <div class="drawer">
-            <input id="my-drawer" type="checkbox" class="drawer-toggle" />
-
-              <div class="drawer-side">
-                <label for="my-drawer" class="drawer-overlay"></label>
-                <ul class="menu p-4 w-80 bg-base-100 text-base-content">
-                  <!-- Sidebar content here -->
-                  <li><a>Sidebar Item 1</a></li>
-                  <li><a>Sidebar Item 2</a></li>
-                  
-                </ul>
-              </div>
-        </div>
-    </div>
-
-
-
 
     <!-- Navbar -->
     <nav>
@@ -253,32 +235,34 @@
 
 
 
-        <!-- Benifits -->
+        <!-- Benefits -->
         <div id="benifits" class="text-5xl font-bold text-center mt-20 mb-10">
-            Benifits
+            Benefits
         </div>
-        <div class="grid grid-cols-2 place-items-center">
-
-            <!-- 10 % bonus -->
-            <div class="text-5xl font-bold text-center mx-10 p-10 flex flex-col items-center">
-                <div class="heading m-10 text-secondary-content">
-                    New Users/ID's
-                </div>
-                <div class="text-4xl font-bold mb-2 text-accent-content">
-                    10% bonus
-                </div>
+        <div class="grid grid-cols-2 justify-center items-center">
+          <!-- 10% bonus -->
+          <div class="text-3xl md:text-5xl font-bold text-center flex flex-col items-center">
+            <div class="rounded-lg  bg-accent">
+              <div class="heading p-5 text-secondary-content">
+                First deposit
+              </div>
+              <div class="text-2xl md:text-4xl font-bold mb-2 text-accent-content">
+                10% bonus
+              </div>
             </div>
+          </div>
 
-            <!-- 3 % -->
-            <div class="text-5xl font-bold text-center mx-10 p-10 flex flex-col items-center">
-                <div class="heading m-10 text-secondary-content">
-                    For all deposits
-                </div>
-                <div class="text-4xl font-bold mb-2 text-accent-content">
-                    3% bonus
-                </div>
+          <!-- 3% bonus -->
+          <div class="text-3xl md:text-5xl font-bold text-center flex flex-col items-center">
+            <div class="rounded-lg bg-accent">
+              <div class="heading p-5 text-secondary-content">
+                Recurring deposit
+              </div>
+              <div class="text-2xl md:text-4xl font-bold mb-2 text-accent-content">
+                3% bonus
+              </div>
             </div>
-
+          </div>
         </div>
 
 
@@ -335,20 +319,20 @@
         <div id="about" class="text-5xl font-bold text-center mt-20 mb-10">
             About Us
         </div>
-        <div class="grid grid-cols-2 place-items-center">
+        <div class="grid grid-cols-2">
 
             <!-- Service 27x7 -->
-            <div class="text-3xl font-bold text-center mx-10 p-10 flex flex-col lg:flex-row items-center">
-                <img src="./assets/24x7.png" class="w-1/2 max-w-md">
-                <div class="heading m-10 text-secondary-content">
+            <div class="text-2xl font-bold text-center flex flex-col lg:flex-row items-center justify-center">
+                <img src="./assets/24x7.png" class="w-1/2 lg:w-1/4">
+                <div class="text-secondary-content m-5">
                     Service 24x7 Available
                 </div>
             </div>
 
             <!-- Customer Support -->
-            <div class="text-3xl font-bold text-center mx-10 p-10 flex flex-col lg:flex-row items-center">
-                <img src="./assets/customer support.png" class="w-1/2 max-w-md">
-                <div class="heading m-10 text-secondary-content">
+            <div class="text-2xl font-bold text-center flex flex-col lg:flex-row items-center justify-center">
+                <img src="./assets/customer support.png" class="w-1/2 lg:w-1/4">
+                <div class="text-secondary-content m-5">
                     Customer Support
                 </div>
             </div>
