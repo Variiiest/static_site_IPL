@@ -55,7 +55,7 @@ document.addEventListener( 'DOMContentLoaded', function () {
         perPage: 5,
         breakpoints: {
               640: {
-                  perPage: 1.5,
+                perPage: 1.5,
               },
               1024 : {
                 perPage: 3.5,
