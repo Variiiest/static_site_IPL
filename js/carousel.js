@@ -59,7 +59,10 @@ document.addEventListener( 'DOMContentLoaded', function () {
               },
               1024 : {
                 perPage: 3.5,
-              }
+              },
+              1280 : {
+                perPage : 4.5,
+              },
         },
         autoplay : true,
         interval : 1000,
