@@ -17,3 +17,14 @@ document.addEventListener( 'DOMContentLoaded', function () {
     interval : 1500,
     } ).mount();
 } );
+
+document.addEventListener( 'DOMContentLoaded', function () {
+    new Splide( '#payment-carousel',{
+    type   : 'loop',
+    drag   : 'free',
+    focus  : 'center',
+    perPage: 5,
+    autoplay : true,
+    interval : 1000,
+    } ).mount();
+} );
